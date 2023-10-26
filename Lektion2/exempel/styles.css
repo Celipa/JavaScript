@@ -16,5 +16,17 @@ body{
 .box{
     width: 100%;
     background-color: #fff;
-    border:1px;
+    border:1px solid gray;
+    min-height: 8rem;
+    overflow: hidden;
+}
+.item{
+    padding: .5rem;
+    user-select: none;
+    cursor: pointer;
+    
+    &:hover,
+    &:focus-visible {
+        background-color: #e4e4e4;
+    }
 }
