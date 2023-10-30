@@ -1,0 +1,23 @@
+Console.log works as print from python. It prints your code into the console.
+
+
+
+let is a function that tells the code that ''let this letter mean this number'' as in ''let x mean 1''
+
+if is a function you have worked with before in python, it tells you ''if the function is this.... do this.''
+
+
+function myFunction() {
+  let x = 1;              let x mean 1   
+  if (true) {             if it's true
+    let x = 2;            then let x equals 2
+    console.log(x);       Then print output 2
+  }
+  console.log(x);         Then print output 1
+}
+
+myFunction();
+
+// Hoisting not allowed
+console.log(y); // Output: Uncaught ReferenceError: y is not defined
+let y = 5;
