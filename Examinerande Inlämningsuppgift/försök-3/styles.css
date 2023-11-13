@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    /*background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%);*/
+}
+.container{
+    width: 80%;
+    min-height: 100vh;
+    margin: 3rem auto;
+    padding: 10px;
+    background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(240,45,253,1) 100%); 
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,.7);
+}
+form {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  }
+  label {
+    margin-bottom: 10px;
+  }
+  input[type="text"] {
+    flex: 1;
+    padding: .5em;
+    border: 1px solid #333;
+    border-radius: .5em;
+  }
+  button {
+    padding: .5em 1em;
+    border-radius: .5em;
+    border: 0;
+    background-color: darkslateblue;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #3e8e41;
+  }
+  /* Style the task list */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border-radius: 1rem;
+  }
+  li:hover {
+    background-color: #ddd;
+  }
+  .delete {
+    color: red;
+    cursor: pointer;
+  }
+  h1, h2{
+    text-align: center;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+  }
