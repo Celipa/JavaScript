@@ -1,36 +1,36 @@
-Uppgiftsbeskrivning: Skapa en Todo-applikation med ett publikt API
-Mål: Låta dig tillämpa dina kunskaper om grundläggande JavaScript, DOM-manipulation, och asynkron kommunikation med en extern server för att bygga en funktionell Todo-applikation.
+Uppgiftsbeskrivning: Skapa en To-do-applikation med ett publikt API
+Mål: Låta dig tillämpa dina kunskaper om grundläggande JavaScript, DOM-manipulation, och asynkron kommunikation med en extern server för att bygga en funktionell To-do-applikation.
 
 Du ska skapa en hemsidan som är en To-do fornulär där du kan lägga till, ta bort och hämta to-do punkter.
 Du ska kunna lägga till punkter i checklistan, ta bort punkter och göra en ''validering'' som gör att användaren inte ska kunna lägga till en tom To-do punkt i listan.
 
 
 Krav för godkänt:
-Hämta todos: Använd Fetch för att göra en GET-förfrågan och hämta Todo-listan från API:et vid sidans laddning. Presentera listan på din webbsida.
+Hämta to-dos: Använd Fetch för att göra en GET-förfrågan och hämta To-do-listan från API:et vid sidans laddning. Presentera listan på din webbsida.
 
-Lägga till todos: Skapa ett formulär med en textinput och en knapp, som låter användaren lägga till en ny Todo. Validera inmatningen för att undvika att man kan lägga till tomma Todos. 
-Försöker man lägga till en todo utan att ha fyllt i någon text så ska ett felmeddelande visas för användaren.
+Lägga till to-dos: Skapa ett formulär med en textinput och en knapp, som låter användaren lägga till en ny To-do. Validera inmatningen för att undvika att man kan lägga till tomma To-dos. 
+Försöker man lägga till en to-do utan att ha fyllt i någon text så ska ett felmeddelande visas för användaren.
 
-Spara todo: Använd Fetch för att göra en POST-förfrågan till API:et när en ny todo läggs till. Uppdatera listan på hemsidan med den nya todon efter att du har fått ett svar från API:et.
+Spara to-do: Använd Fetch för att göra en POST-förfrågan till API:et när en ny to-do läggs till. Uppdatera listan på hemsidan med den nya to-don efter att du har fått ett svar från API:et.
 
-Ta bort todo: Implementera funktionen att ta bort en todo från listan genom att göra en DELETE-förfrågan till API:et. 
+Ta bort to-do: Implementera funktionen att ta bort en to-do från listan genom att göra en DELETE-förfrågan till API:et. 
 
-Uppdatera DOM:en efter du har fått ett svar tillbaka så att den borttagna todon försvinner.
+Uppdatera DOM:en efter du har fått ett svar tillbaka så att den borttagna to-don försvinner.
 
 
 Krav för väl godkänt:
-Klarmarkera todos: Låt användarna klarmarkera en todo genom att skicka en PUT-förfrågan till API:et. 
+Klarmarkera to-dos: Låt användarna klarmarkera en to-do genom att skicka en PUT-förfrågan till API:et. 
 
-Uppdatera stylingen på den klarmarkerade todon för att visa tydligt att den är avklarad. Möjliggör även att ändra tillbaka statusen till "ej avklarad" om det behövs.
+Uppdatera stylingen på den klarmarkerade to-don för att visa tydligt att den är avklarad. Möjliggör även att ändra tillbaka statusen till "ej avklarad" om det behövs.
 
-Visuell indikation för klarmarkering: Todos som är klarmarkerade när de hämtas från databasen ska presenteras med samma styling som ovan som indikerar deras avklarade status.
-Förhindra borttagning av ej klarmarkerade todos: Förhindra användare från att ta bort todos som inte är klarmarkerade.
+Visuell indikation för klarmarkering: To-dos som är klarmarkerade när de hämtas från databasen ska presenteras med samma styling som ovan som indikerar deras avklarade status.
+Förhindra borttagning av ej klarmarkerade to-dos: Förhindra användare från att ta bort to-dos som inte är klarmarkerade.
 
-Om användaren ändå försöker ta bort en sådan todo ska en modal (popup) visas istället med en text som förklarar varför borttagningen inte är tillåten. Denna får inte vara en vanlig alert().
+Om användaren ändå försöker ta bort en sådan to-do ska en modal (popup) visas istället med en text som förklarar varför borttagningen inte är tillåten. Denna får inte vara en vanlig alert().
 
 
 Tilläggsrekommendationer:
-Använd CSS-bibliotek: Du kan använda populära CSS-bibliotek som Bootstrap, Tailwind, eller Material Design för att snabbt styla din Todo-applikation och ge den ett snyggt utseende om du vill. 
+Använd CSS-bibliotek: Du kan använda populära CSS-bibliotek som Bootstrap, Tailwind, eller Material Design för att snabbt styla din To-do-applikation och ge den ett snyggt utseende om du vill. 
 Men det är upp till dig vad du vill använda och hur du vill styla din sida.
 Dokumentation: Inkludera en README.md fil med en kort beskrivning av ditt projekt och dess funktionalitet för att det ska synas på din github-sida. Detta kan vara till nytta för användare och granskare.
 Källkodskommentarer: Försäkra dig om att din JavaScript-kod är väl-kommenterad och tydligt strukturerad så att det är lätt för andra att förstå och granska koden.
