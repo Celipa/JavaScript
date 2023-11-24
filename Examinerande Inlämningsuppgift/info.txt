@@ -34,3 +34,15 @@ Använd CSS-bibliotek: Du kan använda populära CSS-bibliotek som Bootstrap, Ta
 Men det är upp till dig vad du vill använda och hur du vill styla din sida.
 Dokumentation: Inkludera en README.md fil med en kort beskrivning av ditt projekt och dess funktionalitet för att det ska synas på din github-sida. Detta kan vara till nytta för användare och granskare.
 Källkodskommentarer: Försäkra dig om att din JavaScript-kod är väl-kommenterad och tydligt strukturerad så att det är lätt för andra att förstå och granska koden.
+
+
+
+
+
+
+
+Get = hämtar data, okrypterat
+
+post - skriva data, krypterat i en body
+
+
